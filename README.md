@@ -45,6 +45,7 @@
 | ------- |
 | [0013-roman-to-integer](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0014-longest-common-prefix) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0058-length-of-last-word) |
 | [0242-valid-anagram](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0242-valid-anagram) |
@@ -83,6 +84,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0392-is-subsequence](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0392-is-subsequence) |
 ## Dynamic Programming
 |  |
@@ -117,4 +119,8 @@
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0724-find-pivot-index) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
