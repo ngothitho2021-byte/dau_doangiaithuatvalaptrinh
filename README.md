@@ -10,6 +10,7 @@
 | [0217-contains-duplicate](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0347-top-k-frequent-elements) |
 | [0605-can-place-flowers](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0605-can-place-flowers) |
+| [0912-sort-an-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0912-sort-an-array) |
 | [1929-concatenation-of-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1929-concatenation-of-array) |
 ## Hash Table
 |  |
@@ -28,6 +29,7 @@
 | [0217-contains-duplicate](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0912-sort-an-array) |
 ## Simulation
 |  |
 | ------- |
@@ -50,14 +52,17 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0912-sort-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0912-sort-an-array) |
 ## Bucket Sort
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0912-sort-an-array) |
 ## Counting
 |  |
 | ------- |
@@ -83,4 +88,16 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0013-roman-to-integer) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
