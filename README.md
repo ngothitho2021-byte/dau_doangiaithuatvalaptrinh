@@ -15,6 +15,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0242-valid-anagram) |
@@ -34,6 +35,7 @@
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0058-length-of-last-word) |
@@ -77,4 +79,8 @@
 |  |
 | ------- |
 | [0605-can-place-flowers](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0605-can-place-flowers) |
+## Math
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
