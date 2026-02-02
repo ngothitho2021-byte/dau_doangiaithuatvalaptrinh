@@ -9,6 +9,7 @@
 | [0049-group-anagrams](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0347-top-k-frequent-elements) |
+| [0605-can-place-flowers](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0605-can-place-flowers) |
 | [1929-concatenation-of-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1929-concatenation-of-array) |
 ## Hash Table
 |  |
@@ -69,4 +70,8 @@
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0392-is-subsequence) |
+## Greedy
+|  |
+| ------- |
+| [0605-can-place-flowers](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0605-can-place-flowers) |
 <!---LeetCode Topics End-->
