@@ -23,6 +23,7 @@
 | [0242-valid-anagram](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0387-first-unique-character-in-a-string) |
 ## Sorting
 |  |
 | ------- |
@@ -44,6 +45,7 @@
 | [0058-length-of-last-word](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0058-length-of-last-word) |
 | [0242-valid-anagram](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0392-is-subsequence) |
 ## Trie
 |  |
@@ -69,6 +71,7 @@
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0387-first-unique-character-in-a-string) |
 ## Quickselect
 |  |
 | ------- |
@@ -102,4 +105,8 @@
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0912-sort-an-array) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
