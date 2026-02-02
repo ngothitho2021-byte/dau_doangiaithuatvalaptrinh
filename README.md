@@ -35,6 +35,7 @@
 | [0014-longest-common-prefix](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0014-longest-common-prefix) |
 | [0049-group-anagrams](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0242-valid-anagram) |
+| [0392-is-subsequence](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0392-is-subsequence) |
 ## Trie
 |  |
 | ------- |
@@ -59,4 +60,12 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0347-top-k-frequent-elements) |
+## Two Pointers
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0392-is-subsequence) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0392-is-subsequence) |
 <!---LeetCode Topics End-->
