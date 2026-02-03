@@ -42,6 +42,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0412-fizz-buzz) |
 | [1929-concatenation-of-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1929-concatenation-of-array) |
 ## String
 |  |
@@ -57,6 +58,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0392-is-subsequence) |
+| [0412-fizz-buzz](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0412-fizz-buzz) |
 ## Trie
 |  |
 | ------- |
@@ -104,6 +106,7 @@
 | ------- |
 | [0013-roman-to-integer](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0066-plus-one) |
+| [0412-fizz-buzz](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0412-fizz-buzz) |
 ## Merge Sort
 |  |
 | ------- |
