@@ -10,6 +10,6 @@ class Solution(object):
         total = 0
         for i in range(len(timeSeries) - 1):
             total += min(timeSeries[i+1] - timeSeries[i], duration)
-        total += duration  # cộng thêm cho lần tấn công cuối
+        total += duration 
     
         return total
