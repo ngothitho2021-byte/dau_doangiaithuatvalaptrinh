@@ -61,6 +61,7 @@
 | ------- |
 | [0412-fizz-buzz](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0412-fizz-buzz) |
 | [0495-teemo-attacking](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0495-teemo-attacking) |
+| [1518-water-bottles](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1518-water-bottles) |
 | [1929-concatenation-of-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1929-concatenation-of-array) |
 ## String
 |  |
@@ -133,6 +134,7 @@
 | [0066-plus-one](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0066-plus-one) |
 | [0412-fizz-buzz](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0412-fizz-buzz) |
 | [1304-find-n-unique-integers-sum-up-to-zero](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1304-find-n-unique-integers-sum-up-to-zero) |
+| [1518-water-bottles](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1518-water-bottles) |
 ## Merge Sort
 |  |
 | ------- |
