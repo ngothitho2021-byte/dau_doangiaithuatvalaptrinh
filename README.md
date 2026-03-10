@@ -23,6 +23,7 @@
 | [0912-sort-an-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0912-sort-an-array) |
 | [1051-height-checker](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1051-height-checker) |
 | [1089-duplicate-zeros](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1089-duplicate-zeros) |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1304-find-n-unique-integers-sum-up-to-zero](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1304-find-n-unique-integers-sum-up-to-zero) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1436-destination-city](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1436-destination-city) |
@@ -149,6 +150,7 @@
 | [0066-plus-one](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0066-plus-one) |
 | [0412-fizz-buzz](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0412-fizz-buzz) |
 | [1103-distribute-candies-to-people](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1103-distribute-candies-to-people) |
+| [1295-find-numbers-with-even-number-of-digits](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1304-find-n-unique-integers-sum-up-to-zero](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1304-find-n-unique-integers-sum-up-to-zero) |
 | [1518-water-bottles](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1518-water-bottles) |
 ## Merge Sort
