@@ -41,6 +41,7 @@
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2154-keep-multiplying-found-values-by-two) |
+| [2164-sort-even-and-odd-indices-independently](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2164-sort-even-and-odd-indices-independently) |
 | [2418-sort-the-people](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2418-sort-the-people) |
 ## Hash Table
 |  |
@@ -87,6 +88,7 @@
 | [2148-count-elements-with-strictly-smaller-and-greater-elements](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2148-count-elements-with-strictly-smaller-and-greater-elements) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2160-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2160-minimum-sum-of-four-digit-number-after-splitting-digits) |
+| [2164-sort-even-and-odd-indices-independently](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2164-sort-even-and-odd-indices-independently) |
 | [2418-sort-the-people](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2418-sort-the-people) |
 ## Simulation
 |  |
