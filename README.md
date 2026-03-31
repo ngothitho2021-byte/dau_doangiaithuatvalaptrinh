@@ -100,6 +100,7 @@
 | [1929-concatenation-of-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1929-concatenation-of-array) |
 | [2073-time-needed-to-buy-tickets](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2073-time-needed-to-buy-tickets) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2154-keep-multiplying-found-values-by-two) |
+| [2169-count-operations-to-obtain-zero](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2169-count-operations-to-obtain-zero) |
 ## String
 |  |
 | ------- |
@@ -198,6 +199,7 @@
 | [1518-water-bottles](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1518-water-bottles) |
 | [1742-maximum-number-of-balls-in-a-box](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1742-maximum-number-of-balls-in-a-box) |
 | [2160-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2160-minimum-sum-of-four-digit-number-after-splitting-digits) |
+| [2169-count-operations-to-obtain-zero](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2169-count-operations-to-obtain-zero) |
 ## Merge Sort
 |  |
 | ------- |
