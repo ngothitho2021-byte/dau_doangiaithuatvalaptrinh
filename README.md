@@ -102,6 +102,7 @@
 | [2073-time-needed-to-buy-tickets](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2073-time-needed-to-buy-tickets) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2169-count-operations-to-obtain-zero](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2169-count-operations-to-obtain-zero) |
+| [2180-count-integers-with-even-digit-sum](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2180-count-integers-with-even-digit-sum) |
 ## String
 |  |
 | ------- |
@@ -201,6 +202,7 @@
 | [1742-maximum-number-of-balls-in-a-box](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/1742-maximum-number-of-balls-in-a-box) |
 | [2160-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2160-minimum-sum-of-four-digit-number-after-splitting-digits) |
 | [2169-count-operations-to-obtain-zero](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2169-count-operations-to-obtain-zero) |
+| [2180-count-integers-with-even-digit-sum](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2180-count-integers-with-even-digit-sum) |
 ## Merge Sort
 |  |
 | ------- |
