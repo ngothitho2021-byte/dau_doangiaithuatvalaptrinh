@@ -295,6 +295,7 @@
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0374-guess-number-higher-or-lower](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0374-guess-number-higher-or-lower) |
 | [0704-binary-search](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0704-binary-search) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Matrix
@@ -317,4 +318,8 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0155-min-stack) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
