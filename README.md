@@ -11,6 +11,7 @@
 | [0016-3sum-closest](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0027-remove-element) |
+| [0033-search-in-rotated-sorted-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0035-search-insert-position) |
 | [0049-group-anagrams](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0066-plus-one) |
@@ -296,6 +297,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0035-search-insert-position) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0167-two-sum-ii-input-array-is-sorted) |
