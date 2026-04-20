@@ -263,6 +263,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0069-sqrtx) |
@@ -361,9 +362,11 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
