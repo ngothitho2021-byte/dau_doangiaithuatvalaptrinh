@@ -16,6 +16,7 @@
 | [0049-group-anagrams](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0217-contains-duplicate) |
@@ -244,6 +245,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0392-is-subsequence](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0392-is-subsequence) |
 ## Greedy
 |  |
