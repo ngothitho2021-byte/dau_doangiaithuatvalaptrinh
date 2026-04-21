@@ -12,7 +12,8 @@ class Solution(object):
         """
         if not root:
             return None
-        root.left,root.right=root.right,root.left
+        root.left,root.right=root.right,root.left# đổi chỗ cây con  trái và cây con phải
+        #dùng đệ  quy  đảo ngược tiếp cho cây con
         self.invertTree(root.left)
         self.invertTree(root.right)
         return root
