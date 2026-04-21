@@ -159,6 +159,7 @@
 | [0058-length-of-last-word](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0257-binary-tree-paths) |
 | [0290-word-pattern](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0290-word-pattern) |
 | [0344-reverse-string](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0383-ransom-note) |
@@ -397,6 +398,7 @@
 | [0112-path-sum](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0145-binary-tree-postorder-traversal) |
+| [0257-binary-tree-paths](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0257-binary-tree-paths) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -405,6 +407,7 @@
 | [0112-path-sum](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0145-binary-tree-postorder-traversal) |
+| [0257-binary-tree-paths](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0257-binary-tree-paths) |
 ## Binary Tree
 |  |
 | ------- |
@@ -414,6 +417,7 @@
 | [0112-path-sum](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0145-binary-tree-postorder-traversal) |
+| [0257-binary-tree-paths](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0257-binary-tree-paths) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -423,4 +427,8 @@
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0112-path-sum) |
+## Backtracking
+|  |
+| ------- |
+| [0257-binary-tree-paths](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0257-binary-tree-paths) |
 <!---LeetCode Topics End-->
