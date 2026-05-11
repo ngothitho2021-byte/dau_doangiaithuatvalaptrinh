@@ -416,6 +416,7 @@
 | [0572-subtree-of-another-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0700-search-in-a-binary-search-tree) |
+| [0872-leaf-similar-trees](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0872-leaf-similar-trees) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -433,6 +434,7 @@
 | [0501-find-mode-in-binary-search-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0872-leaf-similar-trees](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0872-leaf-similar-trees) |
 ## Binary Tree
 |  |
 | ------- |
@@ -454,6 +456,7 @@
 | [0572-subtree-of-another-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0700-search-in-a-binary-search-tree) |
+| [0872-leaf-similar-trees](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0872-leaf-similar-trees) |
 ## Binary Search Tree
 |  |
 | ------- |
