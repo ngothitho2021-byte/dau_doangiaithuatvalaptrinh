@@ -420,6 +420,7 @@
 | [0872-leaf-similar-trees](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0872-leaf-similar-trees) |
 | [0897-increasing-order-search-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0897-increasing-order-search-tree) |
 | [0965-univalued-binary-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0965-univalued-binary-tree) |
+| [2236-root-equals-sum-of-children](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2236-root-equals-sum-of-children) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -464,6 +465,7 @@
 | [0872-leaf-similar-trees](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0872-leaf-similar-trees) |
 | [0897-increasing-order-search-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0897-increasing-order-search-tree) |
 | [0965-univalued-binary-tree](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/0965-univalued-binary-tree) |
+| [2236-root-equals-sum-of-children](https://github.com/ngothitho2021-byte/dau_doangiaithuatvalaptrinh/tree/master/2236-root-equals-sum-of-children) |
 ## Binary Search Tree
 |  |
 | ------- |
