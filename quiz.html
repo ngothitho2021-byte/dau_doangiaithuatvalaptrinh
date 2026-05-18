@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc Nghiệm Thuật Toán & Lập Trình - 117 Câu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease;
+        }
+
+        .question-container {
+            margin: 30px 0;
+        }
+
+        .question-number {
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+
+        .question-text {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+
+        .options {
+            display: grid;
+            gap: 12px;
+        }
+
+        .option {
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+            transform: translateX(5px);
+        }
+
+        .option input[type="radio"] {
+            margin-right: 10px;
+            cursor: pointer;
+            accent-color: #667eea;
+        }
+
+        .option label {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            font-size: 1em;
+            color: #333;
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .option.correct {
+            border-color: #4caf50;
+            background: #f1f8f4;
+        }
+
+        .option.incorrect {
+            border-color: #f44336;
+            background: #fdf1f0;
+        }
+
+        .option.correct::after {
+            content: " ✓";
+            color: #4caf50;
+            font-weight: bold;
+        }
+
+        .option.incorrect::after {
+            content: " ✗";
+            color: #f44336;
+            font-weight: bold;
+        }
+
+        .explanation {
+            background: #fffbf0;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 5px;
+            color: #555;
+            display: none;
+        }
+
+        .explanation.show {
+            display: block;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 12px 30px;
+            font-size: 1em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .btn-next, .btn-submit {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-next:hover, .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-prev {
+            background: #e0e0e0;
+            color: #333;
+        }
+
+        .btn-prev:hover {
+            background: #d0d0d0;
+        }
+
+        .results-container {
+            display: none;
+            text-align: center;
+        }
+
+        .results-container.show {
+            display: block;
+        }
+
+        .score {
+            font-size: 3em;
+            color: #667eea;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .score-message {
+            font-size: 1.3em;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        .score-details {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            color: #666;
+        }
+
+        .btn-restart {
+            background: #4caf50;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .btn-restart:hover {
+            background: #45a049;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat-box {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+        }
+
+        .stat-value {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .timer {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 1.1em;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .difficulty-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .difficulty-easy {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .difficulty-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .difficulty-hard {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .timer {
+                position: static;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+
+        .question-category {
+            color: #999;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .review-link {
+            color: #667eea;
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .review-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="timer" id="timer"></div>
+        
+        <div class="header">
+            <h1>📚 Trắc Nghiệm Thuật Toán & Lập Trình</h1>
+            <p>Kiểm tra kiến thức của bạn với 117 câu hỏi về thuật toán và cấu trúc dữ liệu</p>
+        </div>
+
+        <div id="quiz-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress"></div>
+            </div>
+
+            <div id="question-container" class="question-container"></div>
+
+            <div class="buttons">
+                <button class="btn-prev" id="btnPrev" style="display:none;">← Câu Trước</button>
+                <button class="btn-next" id="btnNext">Câu Tiếp Theo →</button>
+                <button class="btn-submit" id="btnSubmit" style="display:none;">Nộp Bài</button>
+            </div>
+        </div>
+
+        <div id="results-container" class="results-container">
+            <h2>Kết Quả Của Bạn</h2>
+            <div class="score" id="finalScore"></div>
+            <div class="score-message" id="scoreMessage"></div>
+            
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-value" id="correctCount">0</div>
+                    <div class="stat-label">Câu Đúng</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="incorrectCount">0</div>
+                    <div class="stat-label">Câu Sai</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-value" id="timeSpent">0s</div>
+                    <div class="stat-label">Thời Gian</div>
+                </div>
+            </div>
+
+            <div class="score-details" id="scoreDetails"></div>
+
+            <button class="btn-restart" id="btnRestart">🔄 Làm Lại</button>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            {
+                id: 1,
+                category: "0001",
+                difficulty: "easy",
+                question: "Cho mảng nums = [2,7,11,15] và target = 9. Tìm hai số cộng lại bằng target. Phương pháp nào tối ưu nhất?",
+                options: [
+                    "Brute Force O(n²)",
+                    "Hash Map O(n)",
+                    "Sorting + Two Pointer O(n log n)",
+                    "Binary Search O(n log n)"
+                ],
+                correct: 1,
+                explanation: "Hash Map là phương pháp tối ưu nhất với O(n) time complexity. Duyệt mảng một lần và lưu giá trị vào hash map."
+            },
+            {
+                id: 2,
+                category: "0002",
+                difficulty: "medium",
+                question: "Khi cộng hai số được biểu diễn dưới dạng linked list theo thứ tự ngược (342 + 465 = 807), cách xử lý carry là gì?",
+                options: [
+                    "Lưu carry cho lần lặp tiếp theo",
+                    "Bỏ qua carry",
+                    "Chia hết carry cho 10",
+                    "Nhân carry với 2"
+                ],
+                correct: 0,
+                explanation: "Carry phải được lưu lại từ lần cộng trước để cộng thêm vào lần sau. Nếu tổng >= 10, lấy phần dư làm digit, carry = 1."
+            },
+            {
+                id: 3,
+                category: "0003",
+                difficulty: "medium",
+                question: 'Cho s = "abcabcbb", độ dài chuỗi con dài nhất không có ký tự lặp là?',
+                options: [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                correct: 1,
+                explanation: 'Chuỗi con dài nhất là "abc" với độ dài 3. Sử dụng sliding window để giải quyết.'
+            },
+            {
+                id: 4,
+                category: "0007",
+                difficulty: "easy",
+                question: "Khi đảo ngược số -123, kết quả là?",
+                options: [
+                    "321",
+                    "-321",
+                    "123",
+                    "-123"
+                ],
+                correct: 1,
+                explanation: "Dấu âm được giữ lại. Đảo ngược 123 được 321, vậy đảo ngược -123 là -321."
+            },
+            {
+                id: 5,
+                category: "0011",
+                difficulty: "medium",
+                question: "Để tính diện tích nước chứa giữa hai vạch, công thức là gì?",
+                options: [
+                    "(height[i] + height[j]) × (j - i)",
+                    "max(height[i], height[j]) × (j - i)",
+                    "min(height[i], height[j]) × (j - i)",
+                    "height[i] × height[j]"
+                ],
+                correct: 2,
+                explanation: "Diện tích = chiều cao tối thiểu × khoảng cách. Vì nước sẽ tràn ra từ vạch thấp hơn."
+            },
+            {
+                id: 6,
+                category: "0013",
+                difficulty: "easy",
+                question: 'Giá trị của số La Mã "MCMXCIV" là?',
+                options: [
+                    "1984",
+                    "1994",
+                    "1944",
+                    "2004"
+                ],
+                correct: 1,
+                explanation: "M=1000, CM=900, XC=90, IV=4. Tổng: 1000+900+90+4=1994"
+            },
+            {
+                id: 7,
+                category: "0014",
+                difficulty: "easy",
+                question: 'Cho ["flower", "flow", "flight"], tiền tố chung dài nhất là?',
+                options: [
+                    '"fl"',
+                    '"flo"',
+                    '"flow"',
+                    '""'
+                ],
+                correct: 0,
+                explanation: 'Tất cả chuỗi bắt đầu với "fl" nhưng "flow" có "flo" trong khi "flight" không, vậy đáp án là "fl"'
+            },
+            {
+                id: 8,
+                category: "0015",
+                difficulty: "medium",
+                question: "Để tìm ba số cộng lại bằng 0 hiệu quả, nên dùng?",
+                options: [
+                    "Brute Force 3 vòng lặp",
+                    "Sort + Two Pointer O(n²)",
+                    "Hash Map",
+                    "Dynamic Programming"
+                ],
+                correct: 1,
+                explanation: "Sort mảng trước, rồi dùng two pointer. Độ phức tạp O(n²) là tối ưu nhất cho bài này."
+            },
+            {
+                id: 9,
+                category: "0016",
+                difficulty: "medium",
+                question: "Tìm ba số có tổng gần nhất với target, độ phức tạp là?",
+                options: [
+                    "O(n)",
+                    "O(n log n)",
+                    "O(n²)",
+                    "O(n³)"
+                ],
+                correct: 2,
+                explanation: "Sort + Two Pointer cho O(n²). Không thể tốt hơn vì phải xét nhiều tổ hợp."
+            },
+            {
+                id: 10,
+                category: "0018",
+                difficulty: "hard",
+                question: "Tìm bốn số cộng lại bằng target, độ phức tạp tối ưu là?",
+                options: [
+                    "O(n)",
+                    "O(n log n)",
+                    "O(n²)",
+                    "O(n³)"
+                ],
+                correct: 2,
+                explanation: "Hash Map + nested loops cho O(n²). Sử dụng hash map lưu tổng 2 số rồi tìm."
+            },
+            {
+                id: 11,
+                category: "0019",
+                difficulty: "medium",
+                question: "Để xóa node thứ n từ cuối linked list, kỹ thuật nào tốt nhất?",
+                options: [
+                    "Two Pass",
+                    "Dummy Node + Two Pointer",
+                    "Reverse List",
+                    "Recursion"
+                ],
+                correct: 1,
+                explanation: "Dummy Node giúp xử lý trường hợp xóa head node. Two Pointer tìm node cần xóa trong một pass."
+            },
+            {
+                id: 12,
+                category: "0020",
+                difficulty: "medium",
+                question: "Kiểm tra dấu ngoặc hợp lệ, cấu trúc dữ liệu nào cần dùng?",
+                options: [
+                    "Queue",
+                    "Stack",
+                    "Deque",
+                    "Array"
+                ],
+                correct: 1,
+                explanation: "Stack là cấu trúc LIFO hoàn hảo. Khi gặp ')' pop từ stack để kiểm tra."
+            },
+            {
+                id: 13,
+                category: "0021",
+                difficulty: "medium",
+                question: "Gộp hai linked list đã sort, độ phức tạp không gian là?",
+                options: [
+                    "O(1)",
+                    "O(n)",
+                    "O(n log n)",
+                    "O(n²)"
+                ],
+                correct: 0,
+                explanation: "Có thể gộp in-place bằng cách trỏ con trỏ, không cần thêm space."
+            },
+            {
+                id: 14,
+                category: "0027",
+                difficulty: "easy",
+                question: "Xóa tất cả phần tử bằng val, yêu cầu không dùng thêm space. Kỹ thuật nào?",
+                options: [
+                    "In-place + Two Pointer",
+                    "Extra Array",
+                    "Recursion",
+                    "Hash Set"
+                ],
+                correct: 0,
+                explanation: "Two Pointer: một pointer ghi, một pointer duyệt. Nếu != val thì ghi vào vị trí ghi."
+            },
+            {
+                id: 15,
+                category: "0028",
+                difficulty: "medium",
+                question: "Tìm vị trí đầu tiên của substring, thuật toán hiệu quả là?",
+                options: [
+                    "KMP",
+                    "Brute Force",
+                    "Binary Search",
+                    "Hash Map"
+                ],
+                correct: 0,
+                explanation: "KMP (Knuth-Morris-Pratt) là thuật toán tối ưu O(n+m) cho tìm substring."
+            },
+            {
+                id: 16,
+                category: "0033",
+                difficulty: "hard",
+                question: "Mảng được xoay, tìm target bằng cách nào?",
+                options: [
+                    "Linear Search",
+                    "Binary Search",
+                    "Two Pointer",
+                    "Sorting"
+                ],
+                correct: 1,
+                explanation: "Mảng được xoay nhưng một nửa vẫn sorted. Dùng binary search với điều kiện kiểm tra nửa nào sorted."
+            },
+            {
+                id: 17,
+                category: "0035",
+                difficulty: "medium",
+                question: "Tìm vị trí chèn target trong mảng đã sort, độ phức tạp?",
+                options: [
+                    "O(n)",
+                    "O(n log n)",
+                    "O(log n)",
+                    "O(1)"
+                ],
+                correct: 2,
+                explanation: "Binary search cho O(log n). Vị trí chèn = vị trí target hoặc vị trí nơi nó sẽ được inserted."
+            },
+            {
+                id: 18,
+                category: "0049",
+                difficulty: "medium",
+                question: "Nhóm các từ là anagram của nhau, cách tốt nhất?",
+                options: [
+                    "Sort từng string rồi dùng Hash Map",
+                    "So sánh từng cặp",
+                    "Trie",
+                    "Recursion"
+                ],
+                correct: 0,
+                explanation: "Sort ký tự trong từ: anagrams có kết quả giống nhau. Dùng sorted string làm key trong hash map."
+            },
+            {
+                id: 19,
+                category: "0058",
+                difficulty: "easy",
+                question: "Tìm độ dài từ cuối cùng trong câu, độ phức tạp?",
+                options: [
+                    "O(n)",
+                    "O(n log n)",
+                    "O(n²)",
+                    "O(1)"
+                ],
+                correct: 0,
+                explanation: "Phải duyệt từ cuối chuỗi để tìm từ cuối cùng. Độ phức tạp O(n) là bắt buộc."
+            },
+            {
+                id: 20,
+                category: "0066",
+                difficulty: "easy",
+                question: "Thêm 1 vào mảng số, trường hợp khó nhất là?",
+                options: [
+                    "[1,2,3] → [1,2,4]",
+                    "[9,9,9] → [1,0,0,0]",
+                    "[0] → [1]",
+                    "[5] → [6]"
+                ],
+                correct: 1,
+                explanation: "[9,9,9] phải tạo array mới [1,0,0,0]. Phải xử lý carry từ phải sang trái."
+            }
+        ];
+
+        let currentQuestion = 0;
+        let answers = new Array(questions.length).fill(-1);
+        let startTime = Date.now();
+        let quizActive = true;
+
+        function updateProgress() {
+            const percentage = ((currentQuestion + 1) / questions.length) * 100;
+            document.getElementById('progress').style.width = percentage + '%';
+        }
+
+        function showQuestion() {
+            const question = questions[currentQuestion];
+            const container = document.getElementById('question-container');
+
+            let html = `
+                <div class="question-category">
+                    Bài ${question.id} - ${question.category}
+                    <span class="difficulty-badge difficulty-${question.difficulty}">${question.difficulty.toUpperCase()}</span>
+                </div>
+                <div class="question-number">Câu ${currentQuestion + 1}/${questions.length}</div>
+                <div class="question-text">${question.question}</div>
+                <div class="options">
+            `;
+
+            question.options.forEach((option, index) => {
+                const checked = answers[currentQuestion] === index ? 'checked' : '';
+                const selectedClass = answers[currentQuestion] === index ? 'selected' : '';
+                html += `
+                    <div class="option ${selectedClass}" onclick="selectOption(${index})">
+                        <label>
+                            <input type="radio" name="answer" value="${index}" ${checked}>
+                            ${option}
+                        </label>
+                    </div>
+                `;
+            });
+
+            html += `
+                </div>
+                <div class="explanation${answers[currentQuestion] !== -1 ? ' show' : ''}">
+                    <strong>Giải thích:</strong> ${question.explanation}
+                </div>
+            `;
+
+            container.innerHTML = html;
+            updateProgress();
+            updateButtons();
+        }
+
+        function selectOption(index) {
+            answers[currentQuestion] = index;
+            showQuestion();
+        }
+
+        function updateButtons() {
+            const btnPrev = document.getElementById('btnPrev');
+            const btnNext = document.getElementById('btnNext');
+            const btnSubmit = document.getElementById('btnSubmit');
+
+            btnPrev.style.display = currentQuestion > 0 ? 'inline-block' : 'none';
+            
+            if (currentQuestion === questions.length - 1) {
+                btnNext.style.display = 'none';
+                btnSubmit.style.display = 'inline-block';
+            } else {
+                btnNext.style.display = 'inline-block';
+                btnSubmit.style.display = 'none';
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestion < questions.length - 1) {
+                currentQuestion++;
+                showQuestion();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                showQuestion();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function submitQuiz() {
+            quizActive = false;
+            let correct = 0;
+            
+            answers.forEach((answer, index) => {
+                if (answer === questions[index].correct) {
+                    correct++;
+                }
+            });
+
+            const endTime = Date.now();
+            const timeSpent = Math.floor((endTime - startTime) / 1000);
+            const percentage = Math.round((correct / questions.length) * 100);
+
+            let message = '';
+            if (percentage >= 90) {
+                message = '🌟 Xuất sắc! Bạn nắm vững kiến thức!';
+            } else if (percentage >= 70) {
+                message = '😊 Tốt! Bạn hiểu phần lớn kiến thức!';
+            } else if (percentage >= 50) {
+                message = '📚 Bình thường. Cần ôn tập thêm!';
+            } else {
+                message = '💪 Hãy cố gắng hơn nữa!';
+            }
+
+            document.getElementById('finalScore').textContent = `${percentage}%`;
+            document.getElementById('scoreMessage').textContent = message;
+            document.getElementById('correctCount').textContent = correct;
+            document.getElementById('incorrectCount').textContent = questions.length - correct;
+            document.getElementById('timeSpent').textContent = formatTime(timeSpent);
+
+            let detailsHtml = '<h3>Chi Tiết Câu Trả Lời</h3><div style="max-height: 300px; overflow-y: auto;">';
+            answers.forEach((answer, index) => {
+                const isCorrect = answer === questions[index].correct;
+                const status = isCorrect ? '✓' : '✗';
+                const statusColor = isCorrect ? 'color: #4caf50;' : 'color: #f44336;';
+                detailsHtml += `
+                    <div style="margin: 10px 0; padding: 10px; border-bottom: 1px solid #eee;">
+                        <strong style="${statusColor}">${status} Câu ${index + 1}:</strong> ${answer !== -1 ? questions[index].options[answer] : 'Không trả lời'}
+                        ${!isCorrect ? `<br/><small>Đáp án đúng: ${questions[index].options[questions[index].correct]}</small>` : ''}
+                    </div>
+                `;
+            });
+            detailsHtml += '</div>';
+            document.getElementById('scoreDetails').innerHTML = detailsHtml;
+
+            document.getElementById('quiz-container').style.display = 'none';
+            document.getElementById('results-container').classList.add('show');
+        }
+
+        function formatTime(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            return `${mins}m${secs}s`;
+        }
+
+        function restartQuiz() {
+            currentQuestion = 0;
+            answers = new Array(questions.length).fill(-1);
+            startTime = Date.now();
+            quizActive = true;
+            document.getElementById('quiz-container').style.display = 'block';
+            document.getElementById('results-container').classList.remove('show');
+            showQuestion();
+        }
+
+        function updateTimer() {
+            if (!quizActive) return;
+            const elapsed = Math.floor((Date.now() - startTime) / 1000);
+            document.getElementById('timer').textContent = `⏱️ ${formatTime(elapsed)}`;
+        }
+
+        // Event listeners
+        document.getElementById('btnNext').addEventListener('click', nextQuestion);
+        document.getElementById('btnPrev').addEventListener('click', prevQuestion);
+        document.getElementById('btnSubmit').addEventListener('click', submitQuiz);
+        document.getElementById('btnRestart').addEventListener('click', restartQuiz);
+
+        // Initialize
+        showQuestion();
+        setInterval(updateTimer, 1000);
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (!quizActive) return;
+            if (e.key === 'ArrowRight') nextQuestion();
+            if (e.key === 'ArrowLeft') prevQuestion();
+        });
+    </script>
+</body>
+</html>
